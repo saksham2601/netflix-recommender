@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Netflix Recommendation System</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+    
+</head>
+
+<body>
+    <div>
+    <h1><mark>Netflix Recommendation System</mark></h1>
+    
+        <p1><span>ENTER A TV-SHOW/MOVIE NAME THAT YOU JUST WATCHED</span></p1>
+        
+            
+            <form name="passdata" action="/recommendations" method="post">
+            <input type="text"   name="moviename" placeholder="Enter a Tv-Series/Movie">
+            <input type="submit" value="Submit">
+            
+    </div>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Recommendations</title>
+
+  <link rel="stylesheet" href="{{ url_for('static', filename='result.css') }}" />
+
+</head>
+
+<body>
+<div class=page>
+
+  <h1>Here are your recommendations....</h1>
+  
+  {% for table in tables %}
+
+    {{ table|safe }}
+
+  {% endfor %}
+
+</div>
+</body>
+</html>

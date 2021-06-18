@@ -1,0 +1,39 @@
+body {
+    background-image: url(background.png);
+    background-size: cover;
+    color:white;
+    text-align: center;
+    padding-top:5px;
+}
+
+h1 {
+    padding-top:150px;
+    color:white;
+    text-align:center;
+    font-size: 50px;
+}
+
+p1{
+    font-size:30px;
+    color: black
+}
+
+span {background-color: white;}
+
+form {
+    padding-top:50px;
+    width:100%;
+}
+
+input[type=text]{
+    width: 20%;
+    padding: 12px 20px;
+    border: none;
+}
+
+input[type=submit]{
+    background-color: DodgerBlue;
+    border: none;
+    padding: 12px 20px;
+
+}
